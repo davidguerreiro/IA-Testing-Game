@@ -7,7 +7,7 @@ public class PlayerChase : MonoBehaviour
 {
 
     public GameObject player;               // Player gameObject.
-    NavMeshAgent agent;
+    NavMeshAgent agent;                     // Agent which will use the nav mesh.
 
     // Start is called before the first frame update
     void Start()
